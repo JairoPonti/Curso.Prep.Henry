@@ -1,0 +1,20 @@
+# Bucle For
+
+Un bucle for nos facilita la tarea de programar, ya que puede repetir una o varias instrucciones mientras se cumpla una condición que el programador establezca.
+El mismo se inicia con la palabra for, y luego entre paréntesis se inicializará una variable, separado por un punto y coma se definirá la condición o dicho de otra manera el stop del for, y por último, separado por otro punto y coma, se irá incrementando a la variable con la instrucción i++ o ++i según el resultado que queramos obtener. El caso del incremento es un ejemplo, ya que también podría implementarse el decremento, siempre dependiendo de con qué valor inicialicemos a la variable utilizada.
+
+# Operadores lógicos
+
+## Doble ampersand &&
+
+Devuelve un valor booleano, en castellano se traduce como "y", y se utiliza cuando queremos que una condición nos devuelva true (si no estamos negando) siempre y cuando lo que se encuentra a la derecha del mismo y a la izquierda sea verdadero, es decir al utilizar este operador estoy esperando que ambas condiciones se cumplan, sino con que una no se cumpla, ya es suficiente para que el resultado sea false.
+
+## Operador Or (o) ||
+
+Se utiliza cuando queremos que una condición nos devuelva true cuando al menos una de las condiciones se cumple, es decir, espero un "true" si por ejemplo el cajón de frutas tiene manzanas o tiene peras, si un numero es menor que diez o mayor a 100. A diferencia del && en este caso no necesito que ambas condiciones sean verdaderas.
+
+## La negación "!" Not (no)
+
+Su uso es el de invertir el valor que una condición o un booleano tiene, por ejemplo true === true, pero !true es igual a false. 
+Si quiero indicar que un número es igual a 10, escribiría así:
+n === 10, pero si quiero especificar que No es igual a 10, o que es DISTINTO de 10, podría utilizar la negación  así: n !== 10

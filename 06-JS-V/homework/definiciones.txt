@@ -1,0 +1,14 @@
+#Prototype
+
+Todos los objetos tienen una referencia, poseen definido por detrás a un OBJETO PROTOTIPO.
+Cuando en un objeto buscamos una propiedad (por ej. una función) y este no la tiene, JavaScript la busca en su OBJETO PROTOTIPO.
+Desde un punto de vista práctico, el uso del prototype se aplica para agregar funciones a una clase. De esta manera todos los objetos pertenecientes a esa clase, compatirán la función creada a través del prototype, dada por una estructura como esta:
+
+Car.prototype.getNumeroDeModelo = function () {
+	return "El siguiente es el número de modelo: " + this.numeromodelo ;
+}
+
+
+#_Constructors_ (de Clases)
+
+La función constructora se utiliza para darle vida a las clases. Por convención se escribirá la primer letra del nombre de la clase con mayúscula. La función constructora no retorna nada, y dentro de su estructura se utiliza el keyword "this", este funciona conjuntamente con el keyword new (el cual se usa al momento de instanciar objetos de la clase en cuestión) para poder pasarle a los objetos creados las propiedades de dicha clase.

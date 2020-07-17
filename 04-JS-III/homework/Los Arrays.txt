@@ -1,0 +1,5 @@
+Los Arrays
+
+Básicamente son listas de elementos. Dichos elementos pueden ser de distintos tipos de datos: strings, booleanos, números, funciones, puede contener arreglos, etc.
+Un ejemplo sencillo de un array es un String, ya que el mismo es un arreglo de caracteres.
+Lo interesante en un array, es que a través de su índice puedo accesar al contenido en una determinada posición, y además luego puedo volver a combinar los elementos con nuevas operaciones matemáticas, podría concatenar strings por ejemplo, los puedo usar dentro de bucles for o while, en fin, tiene muchas aplicaciones

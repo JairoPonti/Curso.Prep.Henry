@@ -1,0 +1,39 @@
+#Los Objetos
+
+En Javascript muchas veces buscaremos emular el mundo que nos rodea, así como en la vida cotidiana nos manejamos con listas de elementos, en Javascript contamos con los arrays. Ahora ¿qué pasa cuando queremos hacer referencia a un objeto? Sabemos que un objeto es algo un poco más complejo, ya que tiene diversos atributos o características. Javascript tiene solución para ello, y nos permite crear un objeto cargado de propiedades a las cuales les asignaremos valores, cuando hablamos de valores pueden ser strings, números, funciones, arreglos. Luego hacer referencia a una propiedad de un objeto ya creado, será mucho más fácil que si intentáramos "crear" un objeto a partir de un array (sería caótico, difícil de manejar, y fácilmente podríamos incurrir en muchos errores.)
+
+# Las propiedades de los Objetos
+
+Continuando con la definición antes descripta, las propiedades son justamente como su nombre lo inica, las características, las cualidades, los atributos de un determinado objeto. También podríamos decir que dichas propiedades definen a un objeto: así como en la vida real sabemos que una pera es amarilla, se puede comer, es blanda, tiene una cáscara, etc.
+
+# Los métodos
+
+Los métodos hacen referencia a las funciones que se encuentran dentro de un objeto. Los mismos pueden ser luego invocados cuando los necesitemos. Muchas veces en su uso práctico son utilizados dentro de su estructura con el keyword "this" para hacer referencia una propiedad exclusiva de un objeto, y luego obtener un determinado resultado.
+
+#Notaciones
+
+## Notación de puntos o "DOT notation":
+Es una forma simplificada de accesar a las propiedades de un objeto
+De esta manera podemos acceder a la propiedad de un objeto de la siguiente manera:
+
+objeto.propiedad
+
+## Notación de corchetes o "Bracket notation":
+Es la forma de notación más antigua y compleja. Si bien es más trabajoso implementarla, puede sernos de utilidad al momento de trabajar con variables, por eso no hay que descartarla.
+Su formato es el siguiente:
+
+objeto ["propiedad"]
+
+##Bucles `for…in`
+
+Los bucles for in se utilizan cuando queremos iterar sobre objetos, específicamente, sobre cada propiedad de ellos.
+Por ejemplo:
+
+var obj = {a: 23, b: 30, c: 50};
+
+for (var prop in obj) {
+
+  console.log(prop);
+  console.log(obj[prop]);
+
+}

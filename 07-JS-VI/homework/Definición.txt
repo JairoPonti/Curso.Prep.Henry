@@ -1,0 +1,6 @@
+#Funciones Callback
+
+Las funciones en JavaScript son tratadas como cualquier otro objeto, esto habilita a que una función sea pasada como argumento, a que una función sea retornada desde otra función, o por ejemplo que sea alojada dentro de un arreglo, variable o dentro de otro objeto.
+El caso específico de las funciones Callback es el siguiente:
+
+Cuando UNA FUNCIÓN ES UN ARGUMENTO DE OTRA FUNCIÓN, se la llama CALLBACK.

@@ -1,0 +1,24 @@
+# Las variables
+
+Las variables se utilizan para almacenar un determinado valor que posteriormente será utilizado. En el caso de JavaScript no es nevesario definir el tipo de variable, (como en el caso de Java que se debe definir de antemano si por ejemplo un tipo de dato es float, integer, char, etc.). Para su creación antepondremos la palabra var, seguida del nombre que queremos darle a la variable, a continuación usaremos el signo de = y a la derecha del mismo alojaremos el valor que queremos en dicha variable (recordar que el signo de = se usa como asignación, y que la lectura se realiza de izquierda a derecha).
+
+
+# Los Strings
+
+Los Strings consisten en cadenas de caracteres, siempre aparecen escritos entre comillas dobles o simples. Hay que presatar atención cuando un número aparece escrito entre comillas así "1988" este será interpretado como un string, mas no como un integer.
+
+# Las funciones, argumentos y return
+
+Las funciones son un tipo de objeto que es invocable, dentro de ellas podremos programar alguna otra tarea especial que queramos hacer con las variables, realizar operaciones matemáticas, modificar variables, etc.
+Los argumentos son utilizados para pasarle variables a una función, y de esta manera no tendremos que repetirnos en una tarea que podría ser repetitiva sin ellos.
+El return en una función, o de una función, es lo que la función en sí nos devuelve como resultante, es aquello que obtenemos de la función.
+
+
+# Declaraciones if (si condicional)
+
+Podemos interpretar al control de flujo if como: "si ocurre tal cosa, entonces ejecutá las siguientes instrucciones". Siempre de un if obtendremos un valor booleano, true o false, y en base a ello se ejecutarán o no las instrucciones especificadas. 
+
+
+# Valores booleanos: true y false
+
+Los valores booleanos true (verdadero) y false (false ) hacen referencia a 2 estados bien distinguidos: activado o desactivado, estado 0 o estado 1, verdadero o falso. Ya que más arriba definimos el if, por ejemplo, un valor booleano es fundamental para determinar si ejecutaremos o no una serie de instrucciones, o para saber si un "usuario" abonó o no un producto, para conocer si un "usuario" es premium o no, para saber si un valor a la derecha del igual es estrictamente el mismo que se encuentra a la izquierda`por ejemplo así 123 === "123" (false) y en base a este resultado determinar algo posteriormente.
